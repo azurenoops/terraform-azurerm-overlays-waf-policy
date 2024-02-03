@@ -154,7 +154,6 @@ module "overlays-waf-policy" {
       ]
     }
   ]
-  ...
 }
 ```
 
