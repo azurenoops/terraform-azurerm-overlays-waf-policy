@@ -76,7 +76,7 @@ More details are available in the [CONTRIBUTING.md](./CONTRIBUTING.md#pull-reque
 
 ## Resources Supported
 
-* []()
+* [Azure WAF Policy](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/web_application_firewall_policy)
 
 ## Module Usage
 
@@ -88,7 +88,7 @@ provider "azurerm" {
 
 module "overlays-waf-policy" {
   source  = "azurenoops/overlays-waf-policy/azurerm"
-  version = "2.0.0"
+  version = "x.x.x"
   
   location = "eastus"
   environment = "public"
