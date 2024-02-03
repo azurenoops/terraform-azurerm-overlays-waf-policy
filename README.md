@@ -18,7 +18,7 @@ provider "azurerm" {
 
 module "overlays-waf-policy" {
   source  = "azurenoops/overlays-waf-policy/azurerm"
-  version = "2.0.0"
+  version = "x.x.x"
   
   location = "usgovvirginia"
   environment = "usgovernment"
