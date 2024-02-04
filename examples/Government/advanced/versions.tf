@@ -7,12 +7,12 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "~> 3.36"
-      configuration_aliases = [azurerm.hub_network]
-    }
-    azurenoopsutils = {
-      source  = "azurenoops/azurenoopsutils"
-      version = "~> 1.0.4"
     }
   }
 }
 
+provider "azurerm" {
+  environment = var.environment
+  features {}
+  skip_provider_registration = true
+}
